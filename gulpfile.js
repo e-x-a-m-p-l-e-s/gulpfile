@@ -23,6 +23,6 @@ gulp.task('js', function() {
     .pipe(jshint())
     .pipe(concat('j.min.js'))
     .pipe(gulp.dest('dist/js'))
-})
+});
 
 gulp.task('default', ['scss', 'js']);
